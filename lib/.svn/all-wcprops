@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/142/trunk/lib
+END
+args4j_deploy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/128/trunk/lib/args4j_deploy.jar
+END
+libtrunk_rhino_parser_jarjared.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/18/trunk/lib/libtrunk_rhino_parser_jarjared.jar
+END
+hamcrest-core-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/83/trunk/lib/hamcrest-core-1.1.jar
+END
+junit.jar
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/130/trunk/lib/junit.jar
+END
+protobuf_deploy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/136/trunk/lib/protobuf_deploy.jar
+END
+ant_deploy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/78/trunk/lib/ant_deploy.jar
+END
+google_common_deploy.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/142/trunk/lib/google_common_deploy.jar
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/124/trunk/contrib/externs
+END
+jquery-1.3.2.externs.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/73/trunk/contrib/externs/jquery-1.3.2.externs.js
+END
+webkit_console.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/108/trunk/contrib/externs/webkit_console.js
+END
+json.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/108/trunk/contrib/externs/json.js
+END
+chrome_extensions.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/110/trunk/contrib/externs/chrome_extensions.js
+END
+google_maps_api_v3.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/124/trunk/contrib/externs/google_maps_api_v3.js
+END
+w3c_geolocation.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/80/trunk/contrib/externs/w3c_geolocation.js
+END

@@ -1,0 +1,143 @@
+body { 
+	font-family: "Century Gothic";
+	background-color: rgb(240,240,240);
+	margin: 3em; 
+	width: 10em;
+}
+
+h1 { 
+	font-size: x-large; 
+	margin-top: 0em;
+}
+
+h2 { 
+	font-size: large; 
+}
+
+#project {
+	font-size: small;
+}
+
+.big {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.result, .xmark { 
+	color: rgb(220,0,0);
+}
+
+.success, .checkmark {
+	color: rgb(0,150,0);
+}
+
+.assumption {
+	color: rgb(120,120,120);
+	font-size:small;
+	margin-left:1em;
+}
+
+
+.code {
+	font-family: "Courier";
+}
+
+.line {
+	font-family: "Courier"; 
+	font-size: small; 
+	margin:0em; 
+	padding: 0em; 
+	margin-bottom: 0.1em; 
+	white-space: pre;
+}
+
+.linenumber {
+	color: rgb(150,150,150);
+	font-size: small;
+}
+
+.handler, .cluster {
+	margin-bottom: 1em;	
+	margin-left: 1em;
+	padding: .5em;
+}
+
+#handlers {
+	
+	
+}
+
+ol,ul {
+	margin: 1em;	
+	margin-left: 2em;
+	padding-left: 1em;
+}	
+
+.xmark {
+	margin-left: -1em;
+	margin-right: .4em;
+	margin-top: .1em;
+}
+
+.checkmark {
+	margin-left: -1em;
+	margin-top: .1em;
+}
+
+li {
+	list-style-position: outside;
+	margin-bottom: .5em;
+	margin-top: .5em;
+	margin-left: 0em;
+	padding-left: 0em;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+		
+.location {
+	cursor: hand;			
+	text-decoration: underline;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+}
+
+.selectable {
+	padding: .2em;
+}
+
+.selected {
+	background-color: rgb(200,200,200);
+	border-radius: 0.25em;
+	padding: .2em;
+}
+	
+.file {
+	position: fixed;
+	left: 15em;
+	top: 3em;
+	right: 3em;
+	bottom: 55%;
+	background-color:white;
+	padding: 1.5em; 
+	padding-right: 0em;
+	border: solid 2px gray; 
+	border-radius: .25em;
+	margin-bottom: 1em;
+	overflow: auto;
+}
+	
+#detail {
+	position:fixed;
+	width: auto;
+	left: 15em;
+	top: 45%;
+	right: 3em;
+	bottom: 3em;			
+	overflow: auto;
+	border: solid 2px gray; 
+	border-radius: .25em;
+	padding: 1em;
+	background-color:white;
+}

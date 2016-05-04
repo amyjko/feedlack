@@ -1,0 +1,265 @@
+##########################
+## These are my simple tests.
+
+## These are examples I wrote or downloaded for early testing.
+##programs/simple
+##programs/ifs
+##programs/nytimes
+##programs/feedlack
+##programs/recursion
+##programs/imprecise
+##programs/remainingnodes
+##programs/sticky
+##programs/dugong
+##programs/uw
+##programs/jquery
+##programs/dagstuhl
+##programs/iSchoolExpertiseDisplayOrder
+##programs/iSchoolFacultyDirectoryExpertiseFilter
+##programs/reader
+##programs/kontain
+##programs/kobe
+
+
+##########################
+## These are the apps that Xing downloaded. 
+
+## Too much source!
+##programs/xing/safari/GoogleMaps			## Interactive maps! Can't even load main.js... It *is* 17,000 lines.
+##programs/xingoss/mathgrid/MathGrid-1		## This one has a ton of files!
+##programs/xingoss/mini games				## Strange source formatting.
+
+## Syntax errors from Rhino strictness.
+##programs/xing/safari/Expedia				## Expedia flight search front page. (It really does have lots of missing ;) 
+##programs/xing/safari/Hulu					## Syntax errors. (Few missing ;, bad property name).
+##programs/xing/safari/HuskyJobs			## Appears to be just one illegal character causing problems.
+##programs/xing/safari/Joongel				## Var named 'int'
+##programs/xing/safari/Lyrics		## Lots of functions. All parsing errors.
+##programs/xing/safari/PandoraRadio## String literal problem.
+##programs/xing/safari/PizzaHut	## Missing semi-colon.
+##programs/xing/safari/QQbookmark	## Invalid property id.
+##programs/xing/safari/SpaceNeedle## Couldn't parse HTML.
+##programs/xing/safari/VerizonWireless		## Reserved words, missing :'s
+##programs/xing/safari/Yammer		## Missing ]'s.
+##programs/xing/safari/personalpage## Unterminated RE, illegal character
+##programs/xing/safari/HomeDepot	## Missing name after .
+##programs/xing/safari/JavascriptGameCollection	## Problem with string literal...
+##programs/xing/safari/CNN		## Code is commented out in the middle of a line.
+##programs/xingoss/antville
+##programs/xingoss/atbudget		## Stuck computing paths on Resizable() ext-all.js:7
+##programs/xing/safari/Orbitz		## Syntax errors.
+##programs/xingoss/blobkit
+##programs/xingoss/browsersec/browser_tests-1.00
+##programs/xingoss/btemplatesjs
+##programs/xingoss/cherryonext/CherryOnExt-0.2.0
+##programs/xing/safari/Amazon		## Illegally formed XML error
+##programs/xingoss/clipperz		## BasicDialog.js:41
+##programs/xingoss/dropdown-check-list		## Bad property names
+##programs/xing/safari/SideStep	## Tons of syntax errors.
+##programs/xing/safari/meebo		## Missing ] after element list.
+##programs/xingoss/google-code-prettify
+##programs/xing/safari/Flickr		## Flickr front page (Rhino reporting invalid return)
+##programs/xingoss/ajaxim## Invalid inline returns
+##programs/xingoss/jsircbot
+##programs/xingoss/jstools4gps/jstools4gps.0.1
+##programs/xingoss/jstree/jsTree.v.1.0rc
+##programs/xingoss/kindeditor/kindeditor-3.5.1-en	## Unterminated literals.
+##programs/xingoss/modalbox		## Lots of random syntax errors.
+##programs/xingoss/neverpeaceful	## Weird encoding issue.
+##programs/xingoss/open-forum		## Hundreds of unterminated literals.
+##programs/xingoss/orange-dba		## HTML parsing issues.
+##programs/xingoss/ovz-web-panel	## Illegal characters.
+##programs/xingoss/owasp-esapi-js/esapi4js-0.1-1.3	## String literal problems.
+##programs/xingoss/pradoeditor	## Encoding?
+##programs/xingoss/renderengine/renderengine_v1rc1	## Bunch of generic syntax errors.
+##programs/xingoss/simplepo## Unterminated literals.
+##programs/xingoss/steamprofile_ajax## Unterminated literal, 
+##programs/xingoss/svgweb## String literal.
+##programs/xingoss/timemap## Unterminated string literal
+##programs/xingoss/websecurify/Websecurify 0.2		## Missing names after . operators.
+##programs/xingoss/whizzywig		## Generic syntax errors.
+##programs/xing/safari/Billboard	## Generic syntax errors. Stuck on billboard-min.js:5627 handler analysis.
+##programs/xing/safari/Target		## Stuck on foresee-trigger.js:2534. Sequential ifs.
+
+## Stuck computing paths.
+##programs/xingoss/ajaxanimator		## ext-all.js:76
+##programs/xingoss/mia-chat## Stuck on drag() jquery.ui-all-1.5b.js:1
+##programs/xing/safari/AT&T## Front page, lots of handlers, many with 32 paths, 16 producing, 16 lacking, lots of analytics recording
+##programs/xingoss/mollify## Stuck on jquery.jqGrid.min.js:10
+##programs/xingoss/persevere-framework/persevere.1	## Stuck on dojo.js:16
+##programs/xingoss/pnotebook		## Stuck on ext-all.js:20383
+##programs/xingoss/trimpath## Stuck on domTT_activate() domLib.js:783
+
+## Stuck on handler analysis.
+##programs/xing/safari/Gambolio		## Stuck on combined-min.js:6578 handler analysis.
+##programs/xing/safari/Facebook_personalPage	## Stuck on ddzq84c0.js:1076 handler analysis.
+##programs/xing/safari/Truveo		## Stuck on ga.js:1324 handler analysis.
+##programs/xing/safari/xiaonei_personalPage		## Stuck on handler analysis.
+
+## These examples had no input handlers (9)
+##programs/xingoss/bin	## interface.js:341 stuck
+##programs/xing/safari/UniversityofWashington	## 200+ track page view links. This is a good motivation for not displaying warnings by input handler.
+##programs/xing/safari/100JavaScriptOnlineGames	## Has no source, just HTML
+##programs/xing/safari/ClassesUSA	## No code, just an ad.
+##programs/xing/safari/Lighthouse	## Just prototype.js empty functions.
+##programs/xing/safari/LouisVuitton	## No input handlers. All flash.
+##programs/xing/safari/mergepdf		## No handlers.
+##programs/xing/safari/PDFCreator	## Flash.
+##programs/xing/safari/UniversityChristianChurch	## No input.
+##programs/xing/safari/W3CMarkupValidator		## no input.
+##programs/xing/safari/Yahoo!		## No input handlers.
+##programs/xing/safari/Wing Zone	## No handlers.
+##programs/xing/safari/GoodBarry	## Closed down! No longer code.
+##programs/xing/safari/ImageSpark	## Uses Flash.
+##programs/xingoss/iz-zoom/iz_zoom_version1.15	## No input handlers.
+##programs/xingoss/sagetv-addons	## No input handlers.
+##programs/xingoss/simpleshoutboxajax## No input handlers.
+##programs/xingoss/TextFile## No input handlers
+##programs/xingoss/charactermanager
+##programs/xingoss/closure-templates/closure-templates-for-javascript-20100708	## No input handlers
+##programs/xingoss/drrr-like-chat	## No input handlers.
+##programs/xingoss/enhancejs		## No input handlers
+##programs/xingoss/flashreplace		## No input handlers.
+##programs/xingoss/fookie## No input handlers.
+##programs/xingoss/geo-location-javascript		## No input handlers.
+##programs/xingoss/ictinus## No handlers
+##programs/xingoss/ie7-js/ie7
+##programs/xingoss/astreeview		## astreeview_packed.js:174
+##programs/xingoss/jcompressor/jcompressor-maven-1.0.2
+##programs/xingoss/jibberbook/jibberbook-2.2
+##programs/xingoss/js-small
+##programs/xingoss/json-template
+##programs/xingoss/jsviz/jsviz-1
+##programs/xingoss/objexa
+##programs/xingoss/openid-selector
+##programs/xingoss/proto-q## Has lots of buttons with no handlers
+##programs/xingoss/realtime-related-tweets-bar
+##programs/xingoss/s3grid
+##programs/xingoss/slot-machine-game
+##programs/xingoss/stacked/Stacked-1
+##programs/xingoss/swffit/swffit-1
+##programs/xingoss/syntaxhighlighter
+##programs/xingoss/tic-tac-toe-for-wave
+##programs/xingoss/v8/benchmarks-v1
+##programs/xingoss/waml
+##programs/xingoss/web-to-print-scripts
+##programs/xingoss/zeroclipboard/zeroclipboard.1
+##programs/xingoss/zkcalendar/zk-calendar-bin-1.0.0-RC
+
+
+## These are confirmed to have real (but potentially insignificant) problems.
+programs/xingoss/bobchess## Lots of problems.
+programs/xing/safari/AutodeskHomestyler		## Lots of seemingly legitimate problems.
+
+## These have potentially real bugs.
+programs/xing/safari/UWRobot		## Real problems?		
+programs/xing/safari/bit## Real problems?
+programs/xing/safari/Pictaculous	## Mouse out problem; only escape key provides feedback; analytics instrumentation; something may already be shown; edge conditions.
+programs/xing/safari/PhotoFunia	## One real missing condition; ga.js; may already be shown.
+programs/xing/safari/KnowEm		## SlideIn jQuery call.
+programs/xing/safari/VolkswagenofAmerica		## Lots of mouse over, tooltip, Flash interactions.
+programs/xingoss/3dhtml## Only modifies state that affects ongoing output
+programs/xingoss/CKImageManager	## Keyup missing feedback, lots of click conditions missing feedback.
+##programs/xingoss/baghchal## <canvas> output not handled yet
+##programs/xingoss/espresso-ui		## Lots of UI toolkit level feedback
+##programs/xingoss/forceworkbench/workbench-1	## Probably two false positives.
+##programs/xingoss/galeri## Lots of potential bugs.
+##programs/xingoss/ggedit/ggEdit-0-1.1## Selection feedback issues
+##programs/xingoss/imgmap/imgmap-1	## These are all handlers matching bind, which I'm not sure is actually a handler.
+##programs/xing/safari/BetYourFollowers## Lots of real problems.
+##programs/xingoss/f-it	## Lots of problems.
+##programs/xing/safari/Backpack		## 2 bugs! No feedback on non-escape keys, or when zoom is disabled
+##programs/xing/safari/Cobblestone	## Front page. When users keydown, some unfinished code that doesn't do anything.
+##programs/xing/safari/CSSA## Chinese Student Association. Feedlack didn't find any of the functions being called to affect images shown.
+##programs/xing/safari/Delicious	## Popular bookmark list.
+##programs/xing/safari/Dictionary	## Dictonary.com front page. Lots of problems, including some no feedback on scrolling.
+##programs/xing/safari/Digg## Front page. Lots of click bugs, but all duplicate problems.
+##programs/xing/safari/Doodle		## Doodle front page. Lots of problems, but potentially from function resolution.
+##programs/xing/safari/Gmail_personalPage		## Gmail page.
+##programs/xing/safari/Hotwire		## Front page search. Lots of errors that appear to be due to control flow graph imprecision.
+##programs/xing/safari/Jing## Screenshots. Very low level issues.
+##programs/xing/safari/Kontain		## Lots of bugs!
+##programs/xing/safari/myBankTracker## Real bugs, missing cases.
+##programs/xing/safari/NBA## Tons of problems (247), but mostly mouse over.
+##programs/xing/safari/OnlineStopwatch## Real problems, but all hover feedback.
+##programs/xing/safari/IterasiArchives## Hover feedback.
+##programs/xing/safari/ColorSuckr	## Interactive color extractor. Lots of problems, but seem to do mostly with Feedlack bugs.
+##programs/xing/safari/PBworks		## Fancy zoom features that don't work in certain cases!
+##programs/xing/safari/Photoshop	## 4 false positives; just couldn't find function.
+##programs/xing/safari/Ping## just ga.js bugs.
+##programs/xing/safari/PlanoSeniorHighSchool	## False positives due to imprecision.
+##programs/xing/safari/Posterous	## False positives; prototype emptyFunction().
+##programs/xing/safari/PrintFriendlyPDF## Maybe one real bug on display.
+##programs/xing/safari/Robo## Some real, some call imprecision.
+##programs/xing/safari/Subway		## Appears to be all false positives on hover feeback (this.className)
+##programs/xing/safari/SumoPaint	## ga.js paths.
+##programs/xing/safari/T.J.Maxx		## Lots of interesting problems, some false positives.
+##programs/xing/safari/TheSeattlePublicLibrary	## Appear to all be call precision issues.
+##programs/xing/safari/TheUniversityofTexasatDallas	## Tons and tons of nested ifs, so hundreds of scenarios.
+##programs/xing/safari/Twitter		## Nothing happens when you click the logo!
+##programs/xing/safari/Wakoopa		## Lots of real problems.
+##programs/xing/safari/WindowsLiveHotmailPersonalPage	## Bunch of mousedown, mouseup problems.
+##programs/xing/safari/WordPress	## Lots of real problems.
+##programs/xing/safari/Wufoo		## Lots of empty functions.
+##programs/xing/safari/eBay## Call imprecision false positives.
+##programs/xing/safari/iciba		## Manual click count instrumentation.
+##programs/xing/safari/qq## 237 problems.
+##programs/xing/safari/yelpseattle	## Looks like mostly false positives.
+##programs/xing/safari/BingTravel	## Flight search page. HTML isn't formatted, so can't really tell what's going on.
+##programs/xing/safari/CampaignMonitor## Front page. Can't read HTML, weird events.
+##programs/xing/safari/ESPN## Games and scores.
+##programs/xing/safari/Instacalc	## Immediate feedback calculator. Lots of bugs
+##programs/xing/safari/OnlineAlarmClock## Many potential bugs.
+##programs/xing/safari/Zamzar		## Bugs!
+##programs/xing/safari/WAStateLicensing## A few clicks missing feedback.
+##programs/xing/safari/holidayautos	## A few clicks missing feedback.
+##programs/xing/safari/ChemDry		## Seem legit.
+##programs/xing/safari/SpyPig		## Seem legit.
+##programs/xing/safari/CollabFinder	## Some legit.
+##programs/xing/safari/Seattle University		## Some legit.
+##programs/xingoss/javascript-simple-dialog
+##programs/xingoss/jessyink## Keypress missing feedback.
+##programs/xingoss/jschessboard/jsChessboard 1.0
+##programs/xingoss/jspgnviewer/jspgnviewer		## Lots of different errors.
+##programs/xingoss/jxlib/jxlib-1	## 36 errors
+##programs/xingoss/kapow## 6 errors
+##programs/xingoss/kditor/Kditor-1.0## All toolkit level errors.
+##programs/xingoss/kimsoft-jscalendar/jscalendar_V20080409	## Probably false positives for from output.
+##programs/xingoss/liveplanet		## Just one potential false positive.
+##programs/xingoss/memonaut/memonaut_1_20		## 94 warnings!
+##programs/xingoss/mychoonz## Toolkit warnings.
+##programs/xingoss/mymoneylog		## 30 warnings, but seem to be jQuery false positives.
+##programs/xingoss/paintweb## 233 warnings!
+##programs/xingoss/pgnviewer		## 14 warnings!
+##programs/xingoss/pictselcom		## 1 warning, potential false positive.
+##programs/xingoss/pictureslides	## 10 warnings, probably all false positives
+##programs/xingoss/projekktor-zwei/projekktor-0.6.1		## 15 warnings, but all on one line!
+##programs/xingoss/restylegc/restylegc-1.0		## 8 warnings, but all in compiled code.
+##programs/xingoss/sariendotnet		## 13 warnings.
+##programs/xingoss/slideshow		## 5 warnings, mootools
+##programs/xingoss/smf-dotastats	## Toolkit false positive.
+##programs/xingoss/svg-edit/svg-edit-v1.0		## 10 warnings, false positives?
+##programs/xingoss/tetris## call() induced false positives.
+##programs/xingoss/webdma/WebDMA-0.1## jQuery false positives.
+##programs/xing/safari/calculateforfree## Almost all false positives due to .value of controls not being treated as output.
+##programs/xingoss/wkrte## Toolkit false positives?
+##programs/xingoss/jquery-snakey	## Looks like mainly jQuery false positives.
+##programs/xing/safari/YouTube		## All analytics?
+
+## Has handlers but no bugs
+##programs/xing/safari/CollinCollege## College front page with moving pictures. No problems.
+##programs/xing/safari/Etsy## Shopping catalogue. No problems.
+##programs/xing/safari/LinkedIn		## No problems.
+##programs/xing/safari/OneBusAway	## No problems.
+##programs/xing/safari/TheInvoiceMachine		## Fixed all of the false positives.
+##programs/xingoss/arc90labs-readability/readability-0.1
+##programs/xingoss/gwt-tetris		## It can't find event handlers
+##programs/xing/safari/ATDHE		## Returns in inline calls don't compile
+##programs/xingoss/wikimediaspellchecker
+
+## These appear to be just analytics warnings.
+##programs/xing/safari/Screenr		## Only ga.js problems;
+
+##programs/xing/safari/MySpace		## All analytics tracking.
+##programs/xing/safari/Carbonmade	## Online portfolio, front page. Just a weird emptyFunction() in prototype.js
+##programs/xing/safari/JavascriptGamesSample	## Can't find functions?
