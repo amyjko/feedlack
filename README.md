@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 FeedLack is a program analysis for finding missing user feedback in web applications. It is a research prototype described in this paper
 
 [FeedLack Detects Missing Feedback in Web Applications](http://faculty.washington.edu/ajko/publications?id=feedlack). Ko, A.J. and Zhang, X. (2011). ACM Conference on Human Factors in Computing Systems (CHI), 2177-2186.
